@@ -140,6 +140,12 @@
     border: none;
 }
 
+.summary button:hover {
+    cursor: pointer;
+    background: linear-gradient(to bottom, rgb(99, 67, 248), rgb(53, 47, 235, 1));
+
+}
+
 @media (min-width:30em) {
     .result-summary-grid {
         min-height: 360px;
